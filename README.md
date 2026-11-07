@@ -46,7 +46,11 @@
 
 ## 开始体验
 
-Mac 测试版正在准备中。安装包和更新会发布在 [Releases](https://github.com/ailble-abum/Memory-releases/releases)；欢迎在 [Issues](https://github.com/ailble-abum/Memory-releases/issues) 分享建议或反馈问题。
+Apple M 系列芯片的 Mac 测试版 **1.60.34** 已提供，支持 macOS 12 或更新版本。[下载 Apple 芯片版](https://github.com/ailble-abum/Memory-releases/releases/download/v1.60.34/Memory_1.60.34_aarch64.dmg)，将 Memory 拖入 Applications 后打开。
+
+本测试版尚未通过 Apple 公证。首次打开如提示无法验证开发者，请在确认下载来源后按 [Apple 操作说明](https://support.apple.com/zh-cn/102445) 处理。安装镜像内附下载修复工具，后续可在「设置 → 诊断 → 软件更新」检查和安装新版。
+
+Intel 版待实机验收后提供。欢迎在 [Issues](https://github.com/ailble-abum/Memory-releases/issues) 分享建议或反馈问题。
 
 <sub>图片中的名称与内容均为演示素材。部分功能的可用性受设备、网络及内容来源影响。</sub>
 

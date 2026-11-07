@@ -1,0 +1,10 @@
+{
+  "version": "1.60.34",
+  "notes": "Memory 首个 Mac 公开测试版，适用于 Apple M 系列芯片，要求 macOS 12 或更新版本。\n\n把想留下的视频、图文和链接收进自己的资料库，再用博主、标签和搜索找回来。收录内容可以继续查看和整理，下载工具的离线修复包已放进安装镜像。\n\n### 下载与安装\n\n下载 **Memory_1.60.34_aarch64.dmg**，打开后将 Memory 拖入 Applications。\n\n本测试版尚未通过 Apple 公证。首次打开如提示无法验证开发者，请确认来自本发布页并核对校验值，再按照系统提示操作。[Apple 打开说明](https://support.apple.com/zh-cn/102445)\n\n### 更新与修复\n\n应用启动后检查新版本，在「设置 → 诊断 → 软件更新」中选择下载并安装。镜像中的「下载修复工具」可在断网环境安装或修复下载依赖。网站登录、风控和网络条件仍会影响平台功能。\n\n### 测试范围\n\nApple 芯片上的隔离首次启动、重新打开、签名更新及离线修复已验证。真实平台功能按本机保存的会话使用，欢迎通过 Issues 反馈具体场景。Intel 版待实机验收后提供。\n\n### 文件说明\n\n- .dmg 是安装镜像。\n- .app.tar.gz 和 .sig 用于应用内更新。\n- SHA256SUMS.txt 用于核对下载文件。\n- ThirdPartySources.tar.gz 提供本版随附开源组件的对应源码与构建信息。\n",
+  "platforms": {
+    "darwin-aarch64": {
+      "url": "https://github.com/ailble-abum/Memory-releases/releases/download/v1.60.34/Memory_1.60.34_aarch64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUQWhiYVBmaytTRkU5TytCdlNsbmlNQU5TSXdER3ROdFFmeHI3T0hveHI3NFZSeXpjblNzSGx2RkRuM2o5TVY2eUJtd1E3cVpkY2tlVzJkMlZaRWczSlM1bFBUUS9LbmdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDUyNDQ4CWZpbGU6TWVtb3J5XzEuNjAuMzRfYWFyY2g2NC5hcHAudGFyLmd6CXZlcnNpb246MS42MC4zNAo2WG1MRTFVMUZoc0pDMm1hdjcrZmFqd1dENlhOaDZuSm1lbzZyU2psMXlPeHl4N0tROFJSd0N1V1hBTkM3VTVJcWdkQVh3UXVyVkgzdXNjQmV1UDRDZz09Cg=="
+    }
+  }
+}
