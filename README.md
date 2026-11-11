@@ -46,7 +46,7 @@
 
 ## 开始体验
 
-Apple M 系列芯片的 Mac 测试版 **1.60.36** 已提供，支持 macOS 12 或更新版本。[下载 Apple 芯片版](https://github.com/ailble-abum/Memory-releases/releases/download/v1.60.36/Memory_1.60.36_aarch64.dmg)，将 Memory 拖入 Applications 后打开。
+Apple M 系列芯片的 Mac 测试版 **1.60.37** 已提供，支持 macOS 12 或更新版本。[下载 Apple 芯片版](https://github.com/ailble-abum/Memory-releases/releases/download/v1.60.37/Memory_1.60.37_aarch64.dmg)，将 Memory 拖入 Applications 后打开。
 
 本测试版尚未通过 Apple 公证。首次打开如提示无法验证开发者，请在确认下载来源后按 [Apple 操作说明](https://support.apple.com/zh-cn/102445) 处理。安装镜像内附下载修复工具，后续可在「设置 → 诊断 → 软件更新」检查和安装新版。
 
