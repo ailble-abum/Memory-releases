@@ -1,10 +1,10 @@
 {
-  "version": "1.60.37",
-  "notes": "Memory 1.60.37 公开测试版，适用于 Apple 芯片的 Mac，要求 macOS 12 或更新版本。\n\n### 本次更新\n\n- 博主时间线的标题、正文和来源信息可以直接选择与复制。\n- 图片可在时间线中展开和切换，已保存视频可在时间线中播放，也可进入完整详情。\n- 时间线或网格预览方式在本次使用期间保持；重新打开软件后默认使用时间线。\n- 修复停止安装工具后的提示，并改进下载入口的平台提示。\n- 修复快手作者再次归集时主页地址可能写入错误平台的问题。\n\n### 安装与更新\n\n已安装测试版的用户可在「设置 → 诊断 → 软件更新」检查和安装新版。首次安装请下载 **Memory_1.60.37_aarch64.dmg**，打开后将 Memory 拖入 Applications。\n\n本测试版尚未通过 Apple 公证。若系统提示无法验证开发者，请核对下载来源和校验值，再按照系统提示操作。[Apple 打开说明](https://support.apple.com/zh-cn/102445)\n\n镜像内含下载依赖的离线修复工具。Intel 版待实机验收后提供。\n\n### 文件说明\n\n- .dmg 是安装镜像。\n- .app.tar.gz 和 .sig 用于应用内更新。\n- SHA256SUMS.txt 用于核对下载文件。\n- ThirdPartySources.tar.gz 包含随附开源组件的对应源码和构建信息。\n",
+  "version": "1.60.38",
+  "notes": "Memory 1.60.38 公开测试版，适用于 Apple 芯片的 Mac，要求 macOS 12 或更新版本。\n\n### 本次更新\n\n- 新增「仅下载」：从作品可识别的图片、视频、封面和声音中选择需要的内容，保存到指定文件夹，不自动收录作品或创建博主。\n- 仅下载的位置可以记住和更改；同名文件不会被覆盖，下载进度和重试保留在下载中心。\n- 修复移除博主及作品时，将网络封面地址误报为无法移入废纸篓的问题。\n- 改进资料包操作中暂存目录的保护；取消或失败后可能保留临时文件，供检查处理。\n\n### 测试范围\n\n新功能已通过合成数据和本地服务测试；不同平台、账号及作品可识别的素材可能不同，真实平台下载仍待进一步验证。单独提取视频原声时会先下载视频，中间文件可能保留在所选位置的隐藏临时目录。\n\n### 安装与更新\n\n已安装测试版的用户可在「设置 → 诊断 → 软件更新」检查和安装新版。首次安装请下载 **Memory_1.60.38_aarch64.dmg**，打开后将 Memory 拖入 Applications。\n\n本测试版尚未通过 Apple 公证。若系统提示无法验证开发者，请核对下载来源和校验值，再按照系统提示操作。[Apple 打开说明](https://support.apple.com/zh-cn/102445)\n\n镜像内含下载依赖的离线修复工具。Intel 版待实机验收后提供。\n\n### 文件说明\n\n- .dmg 是安装镜像。\n- .app.tar.gz 和 .sig 用于应用内更新。\n- SHA256SUMS.txt 用于核对下载文件。\n- ThirdPartySources.tar.gz 包含随附开源组件的对应源码和构建信息。\n",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/ailble-abum/Memory-releases/releases/download/v1.60.37/Memory_1.60.37_aarch64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUQWhiYVBmaytTRksrVmpDdnpCVlhlMXl5NVdsb0VENklxcmxVQTRKQm1VRVhuUXFrYXovVFFMZHg0b3VQamI3Ylo3ZWoraE1HN2xQaUQvOUdEYnpXWkNObjRBU055U3d3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0Mzk4MTQ1CWZpbGU6TWVtb3J5XzEuNjAuMzdfYWFyY2g2NC5hcHAudGFyLmd6CXZlcnNpb246MS42MC4zNwovaUE1UWZraDNoWHFuQ0JqejkydXlIaHV4MzVnVStLWTJJZm1LSGhnbUQwMk9ZK0lqRlpHdE9nNzZQZGp3T2VPZmRJZ1ZXYjFwT25aQmN4dE9SdGtEdz09Cg=="
+      "url": "https://github.com/ailble-abum/Memory-releases/releases/download/v1.60.38/Memory_1.60.38_aarch64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUQWhiYVBmaytTRkJxaUlNalRyeFp0bWFKaDFpLzJmbEhtK294N0dSSFc1VXVJSTRkSWVQdHZvcnlIYUpOc0NqSnl5S01NdWtNUGVNUWNsMVpyMzBFQXFGMUlTQVM2bWdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDc4MDMwCWZpbGU6TWVtb3J5XzEuNjAuMzhfYWFyY2g2NC5hcHAudGFyLmd6CXZlcnNpb246MS42MC4zOApGV3V4VkMwaUQwWUtFK0lJdk1ra0NHc1o5WFBnY0hMZ1p4NWJxSTdaczRYSFVVSm5NMnlva0J5Nm14NEJaUk1QT3VmWERkV01SWEtWYk1CaWp5MndBUT09Cg=="
     }
   }
 }
